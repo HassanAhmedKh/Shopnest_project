@@ -11,7 +11,7 @@ ShopNest is a fictional online store with customers across 11 Pakistani cities, 
 
 ## Dataset and Schema
 
-![ERD](images/ERD Schema.PNG)
+![ERD](images/ERD_Schema.PNG)
 
 The data is **synthetic**, generated programmatically with Python (Faker) and covering 2023 to 2025. It includes realistic features so the queries have something to find: seasonal sales spikes (11.11, year-end, Ramadan/Eid), cancelled and returned orders, uneven customer activity (some customers barely order, some order often), and Prime subscribers who churn and resubscribe.
 
