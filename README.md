@@ -11,7 +11,7 @@ ShopNest is a fictional online store with customers across 11 Pakistani cities, 
 
 ## Dataset and Schema
 
-![ERD](images/erd.png)
+![ERD](images/ERD Schema.PNG)
 
 The data is **synthetic**, generated programmatically with Python (Faker) and covering 2023 to 2025. It includes realistic features so the queries have something to find: seasonal sales spikes (11.11, year-end, Ramadan/Eid), cancelled and returned orders, uneven customer activity (some customers barely order, some order often), and Prime subscribers who churn and resubscribe.
 
@@ -39,21 +39,21 @@ These come from the queries below and describe this synthetic dataset, not real-
 
 **2. Revenue grew from under 10K PKR a month to over 2.5M.** Monthly revenue rose from 9,589 PKR in April 2023 to 2.57M PKR in December 2025, which was up 75.7% on November (the year-end sale). The data starts in April 2023 because the customer base builds up over time.
 
-![Running revenue, part 1](images/running_revenue.png)
-![Running revenue, part 2](images/running_revenue_2.png)
-![Month-over-month change, part 1](images/mom_change.png)
-![Month-over-month change, part 2](images/mom_change_2.png)
+![Running revenue, part 1](images/running_revenue.PNG)
+![Running revenue, part 2](images/running_revenue_2.PNG)
+![Month-over-month change, part 1](images/mom_change.PNG)
+![Month-over-month change, part 2](images/mom_change_2.PNG)
 **3. The top 25% of customers generate 58.8% of revenue.** The top half generates 85.5%, and the bottom quarter just 2.9%.
 
-![Spend quartiles](images/spend_quartile.png)
+![Spend quartiles](images/spend_quartile.PNG)
 
 **4. Prime customers spend about 97% more, by ordering more often.** Prime customers average 6.0 orders and 106,241 PKR each, against 3.0 orders and 53,962 PKR for Non-Prime. Average order value is almost the same (17,673 vs 18,139 PKR), so the gap comes from frequency, not basket size. "Prime" here means a customer who has ever subscribed.
 
-![Prime vs Non-Prime](images/prime_vs_nonprime.png)
+![Prime vs Non-Prime](images/prime_vs_nonprime.PNG)
 
 **5. 44% of customers are At Risk or Lapsed, holding 32% of historical revenue.** Measured from the end of the data (2025-12-31): 138 customers are Active (last order within 90 days), 45 are At Risk (91 to 180 days) and 64 are Lapsed (over 180 days). The 109 At Risk and Lapsed customers account for 5.77M PKR in past spend.
 
-![Churn segments](images/churn_segments.png)
+![Churn segments](images/churn_segments.PNG)
 
 ### Assumptions
 
