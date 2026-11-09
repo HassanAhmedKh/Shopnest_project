@@ -8,7 +8,6 @@ ShopNest is a fictional online store with customers across 11 Pakistani cities, 
 
 **Tools:** PostgreSQL 18, pgAdmin 4
 
-**Related project:** [Pakistan Remittances vs PKR/USD Analysis](https://github.com/YOUR-USERNAME/YOUR-PROJECT-1-REPO) (Python, Excel, Power BI)
 
 ## Dataset and Schema
 
@@ -40,12 +39,13 @@ These come from the queries below and describe this synthetic dataset, not real-
 
 **2. Revenue grew from under 10K PKR a month to over 2.5M.** Monthly revenue rose from 9,589 PKR in April 2023 to 2.57M PKR in December 2025, which was up 75.7% on November (the year-end sale). The data starts in April 2023 because the customer base builds up over time.
 
-![Running revenue](images/running_revenue.png)
-![Month-over-month change](images/mom_change.png)
-
+![Running revenue, part 1](images/running_revenue.png)
+![Running revenue, part 2](images/running_revenue_2.png)
+![Month-over-month change, part 1](images/mom_change.png)
+![Month-over-month change, part 2](images/mom_change_2.png)
 **3. The top 25% of customers generate 58.8% of revenue.** The top half generates 85.5%, and the bottom quarter just 2.9%.
 
-![Spend quartiles](images/spend_quartiles.png)
+![Spend quartiles](images/spend_quartile.png)
 
 **4. Prime customers spend about 97% more, by ordering more often.** Prime customers average 6.0 orders and 106,241 PKR each, against 3.0 orders and 53,962 PKR for Non-Prime. Average order value is almost the same (17,673 vs 18,139 PKR), so the gap comes from frequency, not basket size. "Prime" here means a customer who has ever subscribed.
 
